@@ -31,6 +31,8 @@
 #include <hal.h>
 #include "mpu.h"
 
+//This is a change
+
 void mpu_enable(void)
 {
     MPU->CTRL |= MPU_CTRL_ENABLE_Msk;
